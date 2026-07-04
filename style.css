@@ -34,8 +34,11 @@ body{
 @media (max-width:768px){
 
 .clock{
-    font-size:40px;
-    padding:20px;
+    width: 90%;
+    max-width: 320px;
+    font-size: 40px;
+    padding: 10px 15px;
+    box-sizing: border-box;
 }
 
 }
