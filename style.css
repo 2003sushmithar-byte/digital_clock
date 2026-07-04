@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image: url(./img/india.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container{
+    font-family: 'monospace', monospace;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    background-color:transparent;
+    border-color:pink;
+    border-style:solid;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+#clockcount{
+   background-color: rgba(0, 0, 0, 0.5);
+   border-color:brown;
+   border-style:solid;
+    border-radius: 30px;
+   backdrop-filter: blur(10px);
+    
+}
